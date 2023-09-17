@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tameem Ahamed's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="/">Programming Skills</a></li>
+                    <li><a href="/">Educational Qualifications</a></li>
+                    <li><a href="/">Blog Post</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello there, Myself<br>
+                <span class="purple">Tameem Ahamed</span>
+                <div>and I am a</div> 
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="profile.png" alt="">
+            </div>
+        </section>
+
+    <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">Programming Languages I know</span>
+            <h1>Programming Skils</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="CProg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        C Programming
+                    </div>
+                    <div class="vertical-desc">
+                        I knew a little bit of C Programming Language while I was in Intermediate. 
+                        After taking admission in CSE, I learned it from my university.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="CppProg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        C++ Programming
+                    </div>
+                    <div class="vertical-desc">
+                        In second semester in Computer Programming 2 Course, I learned C++.
+                        
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="javaProg.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Java Programming
+                    </div>
+                    <div class="vertical-desc">
+                        Our Software Development 1 course was done with java.
+                        Back then, learned a little bit about this language.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="CSharp.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        C# Programming
+                    </div>
+                    <div class="vertical-desc">
+                        I have some interest in Game Development. As developing game using unity 
+                        engine requires C# PL, I am trying to learn it.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="htmllogo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Currently Learning...
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="CssLogo.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Currently Learning...
+                    </div>
+                </div>
+            </div>
+        </section>
+    <hr>
+        <section class="thirdSection">
+            <span class="text-gray">Eduation</span>
+            <h1>Educational Qualifications</h1>
+
+            <table class="education">
+                <tr>
+                    <th>Instituition Name</th>
+                    <th>Academic Year</th>
+                </tr>
+                <tr>
+                    <td>Omargoni M.E.S. College</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Kattali Nurul Hoq Chowdhury High School</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Ispahani Adarsha High School</td>
+                    <td>2015</td>
+                </tr>
+            </table>
+
+        </section>
+    <hr>
+        <section class="fourthSection">
+            <span class="text-gray">My Blogs</span>
+            <h1>Blog Post</h1>
+
+        </section>
+    <hr>
+        <section class="fifthSection">
+            <span class="text-gray">Contact Me</span>
+            <h1>Contact</h1>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="firstFooter">
+                    <h3>Tameem Ahamed's Portfolio</h3>
+                </div>
+                <div class="secondFooter">
+                    <ul>
+                        <li>Home</li>
+                        <li>Programming Skill</li>
+                        <li>Educational Qualifications</li>
+                    </ul>
+                </div>
+                <div class="thirdFooter">
+                    <ul>
+                        <li>Blog Post</li>
+                        <li>Contact Me</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['C Programmer', 'C++ Programmer','Java Programmer','C# Programmer','Web Developer'],
+          typeSpeed: 69,
+        });
+    </script>
+</body>
+</html>
